@@ -33,7 +33,7 @@ public class GameFireHandler implements HttpHandler {
             e.printStackTrace();
         }
     }
-
+    /*
     public void createResponse(HttpExchange exchange, String consequence, boolean shipLeft) throws IOException, InterruptedException {
         String response;
         if(consequence != null) {
@@ -49,5 +49,5 @@ public class GameFireHandler implements HttpHandler {
         try {System.out.println("shoot received on port " + this.port);
             if (!shipLeft){ System.out.println("game end"); System.exit(1);}
             else this.game.Next_Shoot();} catch (InterruptedException e) {e.printStackTrace();}
-    }
+    }*/
 }
