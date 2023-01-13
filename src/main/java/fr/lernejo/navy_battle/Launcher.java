@@ -18,7 +18,6 @@ public class Launcher {
             Client client = new Client(Integer.parseInt(args[0]));
             client.CreateStartRequest(args[1]);
             game.seturl(args[1]);
-            //client.CreateFireRequest(args[1], "A1");
         }
     }
 }
